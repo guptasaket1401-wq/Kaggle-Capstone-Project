@@ -1,0 +1,4 @@
+class FileLoaderTool:
+    def run(self, path: str) -> str:
+        with open(path, "r") as f:
+            return f.read()
